@@ -22,7 +22,7 @@ and
 })
 
 3) In your components add template as 
-<pre><recaptcha (resolved)="resolved($event)" siteKey="YOUR_SITE_KEY"></recaptcha></pre>
+```<pre><recaptcha (resolved)="resolved($event)" siteKey="YOUR_SITE_KEY"></recaptcha></pre>```
 <br>
 and in class add
 <br>
