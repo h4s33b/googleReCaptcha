@@ -21,14 +21,14 @@ and
   ],
 })
 
-3) In your components add template as 
-```<pre><recaptcha (resolved)="resolved($event)" siteKey="YOUR_SITE_KEY"></recaptcha></pre>```
+3) In your components add template as <br>
+```<recaptcha (resolved)="resolved($event)" siteKey="YOUR_SITE_KEY"></recaptcha>```
 <br>
 and in class add
 <br>
-resolved(captchaResponse: string) {
-        console.log(`Resolved captcha with response ${captchaResponse}:`);
-    }
+```resolved(captchaResponse: string) {
+        console.log("Resolved captcha with response ${captchaResponse}:");
+    }```
 <br>
 Thats it you are good to go. 
 <br>
